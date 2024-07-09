@@ -1,0 +1,85 @@
+LINUX COMMANDS 
+
+ FILE AND DIRECTORY OPERATION COMMAND
+
+  ls - List directories
+  cd - Change Directory
+  rm - Remove Directory
+  cp - copy files and directories
+  mv - move and rename directories
+  find - Search for file and directories
+  pwd - print current working directories
+  mkdir - create a new directory
+  touch - create a emoty file
+  cat - view content of the file
+  head - display first few lines of the file
+  ln - create lines between files.
+
+FILE PERMISSION COMMANDS
+ tar - create or extraxt archive
+ gzip - compress file
+ zip - create compressed archive
+
+PROCESS MANAGEMENT COMMANDS
+ ps - display running process
+ top - Monitor system process in real times
+ kill - terminate the process
+ pkill - terminate process based on name
+ pgrep - list process
+ grep - used to search specific patterns or regukar expression text files
+
+SYSTEM INFIRMATION COMMANDS
+ uname- print system infirmation
+ whoami - display current username
+ df - shiw disk space usage
+ du - estimate file and directry size
+ free - display memory usage information
+ uptime - Show system uptime
+ lscpu - Display cpu information
+ lspci - list pci devices
+ lsush - list usb devices
+
+NETWORKING COMMANDS
+ ifconfig - Display ip 
+ ping - send ICMP  echo request
+ netstat - Display network connection and statistics
+ ss - dispaly network socket info
+ ssh - securely connect to remote server
+ scp - securely copy files between host
+ wget - download file from web
+ curl - Transfer data to or from a server
+
+IO REDIRECTION COMMANDS
+ cmd<file - input of command is taken from file
+ cmd>file - std output of comaand is redirected to file
+ cmd 2>file - error outout of cmd is redirect to file
+ cmd 1<(cmd2) - output of cmd 2 is used as input for cmd 1
+ cmd >(dev/null) - Discards std output of cmd by send it to null device
+ cmd &>file - every output of command is redirect to file
+ cmd 1>&2 - std out is redirected to same place as stdder
+ cmd>>file - Appends std out command to file
+
+ENVIRONMENT VARIABLE COMMANDS
+ export VARIABLE_NAME = value - set value of environment variable
+ exho $VARIABKE_NAME - display value of specific environment variable
+ env - list all environment variables currently present in system
+ unset_VARIABLE_NAME = unset or remove environment variables
+ export -p - Show a list of currently exported environment variabkes
+ env VAR1 = VALUE COMMAND - set value of environment variabe for specific command
+ printenv - Display values of all environment variables
+
+USER MANAGEMENT COMANDS
+ who - Show who is currently logged in
+ sudo adduser username -  Create a new user account on the system with the specified username
+ finger - Display information about all the users currently logged into the system, including their usernames, login time, and terminal
+ sudo deluser USER GROUPNAME - Remove the specified user from the specified group
+ last - Show the recent login history of users
+ finger username - Provide information about the specified user, including their username, real name, terminal, idle time, and login time
+ sudo userdel -r username - Delete the specified user account from the system, including their home directory and associated files. The -r option ensures the removal of the user’s files
+ sudo passwd -l username - Lock the password of the specified user account, preventing the user from logging in
+ su – username - Switch to another user account with the user’s environment
+ sudo usermod -a -G GROUPNAME USERNAME -  Add an existing user to the specified group. The user is added to the group without removing them from their current groups
+
+
+
+  
