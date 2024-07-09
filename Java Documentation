@@ -1,0 +1,59 @@
+ Java Documentation
+
+Introduction to Java
+
+Java is a high-level, general-purpose, object-oriented, and secure programming language developed by James Gosling at Sun Microsystems in 1991. Originally named OAK, it was renamed to Java in 1995. Java is owned by Oracle Corporation, which acquired Sun Microsystems in 2009. Java is known for its platform independence, meaning that code compiled in Java can run on any device that has a Java Virtual Machine (JVM) installed.
+
+ Java Editions
+
+1. Java Standard Edition (JSE): Used for creating desktop applications.
+2. Java Enterprise Edition (JEE): Used for developing large-scale, distributed applications.
+3. Java Micro Edition (JME): Used for developing applications for mobile and small devices.
+
+Types of Java Applications
+
+1. Standalone Applications: Use GUI components like AWT, Swing, and JavaFX.
+2. Web Applications: Run on servers using technologies like JSP, Servlets, and Spring.
+3. Enterprise Applications: Distributed applications that manage large-scale transactions.
+4. Mobile Applications: Developed using Java ME for mobile devices.
+
+ Java Platform
+
+The Java platform includes the following components:
+- Java Development Kit (JDK): Contains the JRE, a compiler, and other tools necessary for Java development.
+- Java Runtime Environment (JRE): Provides the libraries, Java Virtual Machine (JVM), and other components to run applications written in Java.
+- Java Virtual Machine (JVM): Executes Java bytecode and makes Java platform-independent.
+
+ Key Features of Java
+
+1. Simple: Java has a clean, easy-to-understand syntax.
+2. Object-Oriented: Everything in Java is an object, promoting modularity and code reuse.
+3. Platform-Independent: Java bytecode can run on any system with a JVM.
+4. Secure: Java has built-in security features and runs inside a sandbox environment.
+5. Robust: Java manages memory automatically and handles exceptions efficiently.
+6. Multithreaded: Java supports multithreading, allowing concurrent execution of two or more threads.
+7. Distributed: Java is designed for the distributed environment of the internet.
+8. High Performance: Java uses Just-In-Time (JIT) compilers to improve performance.
+9. Dynamic: Java programs can dynamically extend themselves by loading new classes.
+
+ Object-Oriented Programming Concepts in Java
+
+1. Class and Object: A class is a blueprint for creating objects. Objects are instances of classes.
+2. Inheritance: Allows a new class to inherit properties and behavior from an existing class.
+3. Polymorphism: Enables one interface to be used for a general class of actions. The specific action is determined by the exact nature of the situation.
+4. Encapsulation: Bundling the data and methods that operate on the data within one unit, e.g., a class.
+5. Abstraction: Hiding the complex implementation details and showing only the functionality to the user.
+
+ Java Control Statements
+
+Control statements in Java manage the flow of execution:
+1. Decision-Making Statements: `if`, `if-else`, `switch`
+2. Looping Statements: `for`, `while`, `do-while`
+3. Branching Statements: `break`, `continue`, `return`
+
+ Comments in Java
+
+Comments are used to describe the code and make it more readable. Java supports three types of comments:
+1. Single-line comments: Start with `//` and extend to the end of the line.
+2. Multi-line comments: Enclosed between `/*` and `*/`.
+3. Documentation comments: Enclosed between `/` and `*/` and can be used to generate external documentation.
